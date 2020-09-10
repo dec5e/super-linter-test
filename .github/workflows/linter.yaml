@@ -20,6 +20,8 @@ jobs:
       - name: Lint Code Base
         uses: github/super-linter@v3
         env:
+          ACTIONS_RUNNER_DEBUG: true
+          LOG_LEVEL: debug
           VALIDATE_ALL_CODEBASE: false
           OUTPUT_DETAILS: detailed
           DEFAULT_BRANCH: master
