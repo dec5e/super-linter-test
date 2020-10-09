@@ -9,3 +9,5 @@ This list is using different bullets purposely to fail super-linter markdown che
 * foo
 + bar
 - baz
+
+## Example 2
